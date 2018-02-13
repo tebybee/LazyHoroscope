@@ -10,7 +10,7 @@ int main()
   string first;
   string last;
   string nickname;
-
+  int lucky;
   //get user input
   cout<<"What is your first name?\n";
   cin>> first;
@@ -20,7 +20,8 @@ int main()
   nickname.push_back('.');
   nickname.push_back(last[0]);
   nickname.push_back('.');
-  cout<< "Welcome, " <<nickname<< ", here is your fortune...\n";
+  lucky = first.length();
+  cout<< "Welcome, " <<nickname<< ", your lucky number is " <<lucky<<".\n";
   //tell fortune
 
   return 0;
