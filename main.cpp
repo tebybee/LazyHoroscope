@@ -21,7 +21,8 @@ int main()
   nickname.push_back(last[0]);
   nickname.push_back('.');
   lucky = first.length();
-  cout<< "Welcome, " <<nickname<< ", your lucky number is " <<lucky<<".\n";
+  cout<< "Welcome, " <<nickname<< ", here is your fortune...\n";
+  cout<< "Your lucky number is " <<lucky<<".\n";
   char fort = first[0];
   int len = last.length();
   char love = last[len-1];
